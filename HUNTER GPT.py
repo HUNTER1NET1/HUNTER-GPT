@@ -11,9 +11,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # توكن البوت من @BotFather
-TELEGRAM_TOKEN = '7237707856:AAEv54G0Cr-HJJngzFcGASeoCy9Nz0lKNZw'
+TELEGRAM_TOKEN = 'BOT TOKEN'
 # مفتاح API من OpenAI
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'API KEY'
 # إعداد مفتاح API لـ OpenAI
 openai.api_key = OPENAI_API_KEY
 
